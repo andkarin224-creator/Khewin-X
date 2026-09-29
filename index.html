@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="theme-color" content="#050507">
+  <title>VaiperX ULTRA</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="background"></div>
+
+  <main class="panel">
+    <header class="brand">
+      <div class="logo">
+        <div class="logo-mark">VX</div>
+      </div>
+      <h1>VaiperX ULTRA</h1>
+      <p>THUNDER PROTECTION</p>
+    </header>
+
+    <section class="functions">
+      <div class="function-row">
+        <div class="function-info">
+          <span class="icon">⌁</span>
+          <span>ยิงตัวโดนหัว</span>
+        </div>
+        <button class="switch" type="button" aria-pressed="false" data-name="ยิงตัวโดนหัว"></button>
+      </div>
+
+      <div class="function-row">
+        <div class="function-info">
+          <span class="icon">◡</span>
+          <span>ระบบดูดหัว</span>
+        </div>
+        <button class="switch" type="button" aria-pressed="false" data-name="ระบบดูดหัว"></button>
+      </div>
+
+      <div class="function-row">
+        <div class="function-info">
+          <span class="icon">□</span>
+          <span>ระบบกันแบน</span>
+        </div>
+        <button class="switch" type="button" aria-pressed="false" data-name="ระบบกันแบน"></button>
+      </div>
+
+      <div class="function-row">
+        <div class="function-info">
+          <span class="icon">♙</span>
+          <span>กันรหัสติดดำ</span>
+        </div>
+        <button class="switch" type="button" aria-pressed="false" data-name="กันรหัสติดดำ"></button>
+      </div>
+    </section>
+
+    <button id="activate" class="activate" type="button">
+      ACTIVATE PROTECTION
+    </button>
+
+    <div class="status">
+      ENCRYPTED CONNECTION : <span id="connection">ON</span>
+    </div>
+  </main>
+
+  <div id="toast" class="toast"></div>
+  <script src="script.js"></script>
+</body>
+</html>
